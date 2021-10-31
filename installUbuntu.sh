@@ -2,7 +2,8 @@ sudo apt upgrade
 
 sudo apt-get install lolcat
 sudo apt-get install figlet
-
+echo "Installing python 3"
+sudo apt install python3
 echo "Installing nvm"
 curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
 echo "Installing jabba"
