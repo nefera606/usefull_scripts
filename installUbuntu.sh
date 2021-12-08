@@ -22,5 +22,9 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 echo "Installing VIM and plugins"
 
 echo "Installing fzf"
+sudo apt-get install fzf
+
+echo "Installing Vim and plugs"
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 echo "Configuring environment"
