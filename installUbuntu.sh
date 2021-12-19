@@ -6,6 +6,7 @@ echo "Installing power line fonts"
 sudo apt-get install fonts-powerline
 echo "Installing python 3"
 sudo apt install python3
+sudo apt install python3-pip
 echo "Installing nvm"
 curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
 echo "Installing jabba"
