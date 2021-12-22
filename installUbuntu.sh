@@ -29,3 +29,8 @@ echo "Installing Vim and plugs"
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 echo "Configuring environment"
+cp ./.vimrc ~/.vimrc
+cp ./.zshrc ~/.zshrc
+
+echo "Other tools"
+sudo apt-get install -y pandoc texlive-latex-base texlive-fonts-recommended texlive-extra-utils texlive-latex-extra wkhtmltopdf
