@@ -21,12 +21,12 @@ sudo apt install gh
 echo "installing oh-my-zsh"
 sudo apt install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-echo "Installing VIM and plugins"
 
 echo "Installing fzf"
 sudo apt-get install fzf
 
 echo "Installing Vim and plugs"
+sudo apt-get install vim
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 echo "Configuring environment"
