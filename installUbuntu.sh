@@ -19,6 +19,7 @@ sudo apt update
 sudo apt install gh
 
 echo "installing oh-my-zsh"
+sudo apt install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 echo "Installing VIM and plugins"
 
