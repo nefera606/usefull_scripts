@@ -12,6 +12,7 @@ curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
 echo "Installing jabba"
 curl -sL https://github.com/shyiko/jabba/raw/master/install.sh | bash && . ~/.jabba/jabba.sh
 sudo apt-get install gawk
+sudo apt-get install -y maven
 
 echo "Installing GH cli"
 curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
