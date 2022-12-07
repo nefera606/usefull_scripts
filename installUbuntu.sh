@@ -1,18 +1,20 @@
 sudo apt upgrade
 
-sudo apt-get install lolcat
-sudo apt-get install figlet
+sudo apt-get install -y lolcat
+sudo apt-get install -y figlet
 echo "Installing power line fonts"
-sudo apt-get install fonts-powerline
+sudo apt-get install -y fonts-powerline
 echo "Installing python 3"
-sudo apt install python3
-sudo apt install python3-pip
+sudo apt install -y python3
+sudo apt install -y python3-pip
 echo "Installing nvm"
 curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
 echo "Installing jabba"
 curl -sL https://github.com/shyiko/jabba/raw/master/install.sh | bash && . ~/.jabba/jabba.sh
 sudo apt-get install gawk
 sudo apt-get install -y maven
+echo "Installing Rust"
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 echo "Installing GH cli"
 curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
