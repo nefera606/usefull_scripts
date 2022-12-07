@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$HOME/.cargo/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/rox/.oh-my-zsh"
@@ -104,8 +104,8 @@ export PYTHONPATH=$HOME/.local/lib/python3.8
 #
 # Aliases
 alias py="python3"
-alias configGithub="git config --user.name \"nefera606\";git config --user.email garciademata@gmail.com"
-alias configBitbucket="git config --user.name \"Iñigo Garcia\";git config --user.email inigo.garciademata@es.gt.com"
+alias configGithub="git config user.name \"nefera606\";git config user.email garciademata@gmail.com"
+alias configBitbucket="git config user.name \"Iñigo Garcia\";git config user.email inigo.garciademata@es.gt.com"
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
 alias resetsource="source ~/.zshrc"
